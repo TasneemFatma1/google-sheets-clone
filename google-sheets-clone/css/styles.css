@@ -1,0 +1,47 @@
+.toolbar {
+  background-color: #ffffff;    
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.toolbar-group button,
+.toolbar-group input,
+.toolbar-group label {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
+
+/* Table styling for grid */
+.spreadsheet-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.spreadsheet-table th,
+.spreadsheet-table td {
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 5px;
+}
+
+.spreadsheet-table th {
+  background-color: #f2f2f2;
+}
+
+.cell.selected {
+  background-color: #d1e7fd;
+  border: 1px solid #4CAF50;
+}
